@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
 class ChamberColor {
-  static const Color background = Color(0xFFFBF3E6);
+  static const Color background = Color.fromARGB(255, 255, 255, 255);
   static const Color surface = Color(0xFFFFFFFF);
-  static const Color primary = Color(0xFF3D405B);
+  static const Color primary = Color.fromARGB(255, 0, 0, 0);
   static const Color secondary = Color(0xFFA9E4F7);
   static const Color accent = Color(0xFFFDEB93);
   static const Color text = Color(0xFF3D405B);
