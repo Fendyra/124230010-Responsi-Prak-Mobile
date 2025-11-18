@@ -453,7 +453,7 @@ class _HomePageState extends State<HomePage> {
               MaterialPageRoute(
                 builder: (context) => DetailPage(product: product),
               ),
-            ).then((_) => _refreshFavorites()); // Refresh favorit saat kembali
+            ).then((_) => _refreshFavorites()); 
           },
           child: Container(
             decoration: BoxDecoration(
